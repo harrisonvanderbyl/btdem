@@ -78,8 +78,11 @@ window.onload = function () {
   }
 
   // set up the image
-  const image = document.getElementById("image");
-  image.src = data.author.image;
+  const image = document.getElementsByClassName("profileicon");
+  for (let i = 0; i < image.length; i++) {
+    image[i].src = data.author.image;
+    image[i].href = data.author.image;
+  }
 
   // set up the books
   const books = document.getElementById("bookholder");
