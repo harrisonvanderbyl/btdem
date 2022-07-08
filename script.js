@@ -72,7 +72,7 @@ window.onload = function () {
   description.innerHTML = data.author.description;
 
   // set up the pen name
-  const penName = document.getElementById("penName");
+  const penName = document.getElementsByClassName("penName");
   penName.innerHTML = data.author.penName;
 
   // set up the image
@@ -104,7 +104,7 @@ window.onload = function () {
 
   // set up the links
   for (let key in data.links) {
-    const link = document.getElementById(key);
+    const link = document.getElementsByClassName(key);
     link.href = data.links[key];
   }
 
