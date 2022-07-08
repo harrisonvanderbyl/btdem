@@ -72,8 +72,10 @@ window.onload = function () {
   description.innerHTML = data.author.description;
 
   // set up the pen name
-  const penName = document.getElementsByClassName(".penName");
-  penName.innerHTML = data.author.penName;
+  const penName = document.getElementsByClassName("penName");
+  for (let i = 0; i < penName.length; i++) {
+    penName[i].innerHTML = data.author.penName;
+  }
 
   // set up the image
   const image = document.getElementById("image");
@@ -104,8 +106,10 @@ window.onload = function () {
 
   // set up the links
   for (let key in data.links) {
-    const link = document.getElementsByClassName("." + key);
-    link.href = data.links[key];
+    const link = document.getElementsByClassName(key);
+    for (let i = 0; i < link.length; i++) {
+      link[i].href = data.links[key];
+    }
   }
 
   // set up the background
