@@ -84,6 +84,7 @@ window.onload = function () {
   for (let i = 0; i < data.books.length; i++) {
     const book = document.createElement("a");
     book.href = data.books[i].link;
+    book.target = "_blank";
     book.innerHTML = `<img src="${data.books[i].image}">`;
     books.appendChild(book);
   }
