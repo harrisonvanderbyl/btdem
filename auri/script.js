@@ -71,6 +71,13 @@ const data = {
     "https://cdn.discordapp.com/attachments/933032744282357830/933052857568067644/SPOILER_phoenix_1.jpg",
     "https://i.imgur.com/J15OQ0J.jpg",
     "https://cdn.discordapp.com/attachments/753391562062299149/913214629277224970/Egg.png",
+    ,
+    "https://cdn.discordapp.com/attachments/981003578422468658/995196390496030730/1.jpeg",
+    "https://cdn.discordapp.com/attachments/981003578422468658/995196390701535353/2.jpeg",
+    "https://cdn.discordapp.com/attachments/981003578422468658/995196391020306433/3.jpeg",
+    "https://cdn.discordapp.com/attachments/981003578422468658/995196391238402188/4.jpeg",
+    "https://cdn.discordapp.com/attachments/981003578422468658/995196391448121444/5.jpeg",
+    "https://cdn.discordapp.com/attachments/981003578422468658/995196391691395072/6.jpeg",
   ],
   links: {
     patreon: "https://www.patreon.com/SelkieMyth",
