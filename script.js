@@ -1,6 +1,6 @@
 const data = {
   author: {
-    name: "Olivier Jansen",
+    name: "Selkie Myth",
     penName: "Selkie Myth",
     bio: "Author of Beneath The Dragon Eye Moons.",
     description:
