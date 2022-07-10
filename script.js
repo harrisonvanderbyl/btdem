@@ -39,14 +39,39 @@ const data = {
     },
   ],
   artwork: [
-    "https://cdn.discordapp.com/attachments/753391562062299149/881607410840662046/Lunkat_transparent_bg.png",
-    "https://images-ext-1.discordapp.net/external/23tpm4rXivER2OU4T_vlTtyrR5Z53IBBaN0IMvVyUgE/https/i.imgur.com/ubYOt4z.png?width=1093&height=660",
-    "https://images-ext-1.discordapp.net/external/IiBwjxfQKsyrPOhSGJddooRemZXo2jIzSO8nqDZVX6U/https/i.imgur.com/TzrWOsL.jpg?width=660&height=660",
-    "https://images-ext-2.discordapp.net/external/zsEVfuPsfY-uO-Ue8PD_0mw_dYArEC0wNX3QSTvdr5Q/https/i.imgur.com/tKOMy2O.png?width=466&height=659",
-    "https://media.discordapp.net/attachments/933032744282357830/933052857568067644/SPOILER_phoenix_1.jpg",
-    "https://media.discordapp.net/attachments/751244061104406680/804138261689532476/Val_1.jpg?width=934&height=660",
-    "https://media.discordapp.net/attachments/753391562062299149/815164914707595274/image0.jpg",
-    "https://media.discordapp.net/attachments/753391562062299149/913214632200654858/Elaine_Violet.jpg?width=466&height=659",
+    {
+      image:
+        "https://cdn.discordapp.com/attachments/753391562062299149/881607410840662046/Lunkat_transparent_bg.png",
+    },
+    {
+      image:
+        "https://images-ext-1.discordapp.net/external/23tpm4rXivER2OU4T_vlTtyrR5Z53IBBaN0IMvVyUgE/https/i.imgur.com/ubYOt4z.png?width=1093&height=660",
+    },
+    {
+      image:
+        "https://images-ext-1.discordapp.net/external/IiBwjxfQKsyrPOhSGJddooRemZXo2jIzSO8nqDZVX6U/https/i.imgur.com/TzrWOsL.jpg?width=660&height=660",
+    },
+    {
+      image:
+        "https://images-ext-2.discordapp.net/external/zsEVfuPsfY-uO-Ue8PD_0mw_dYArEC0wNX3QSTvdr5Q/https/i.imgur.com/tKOMy2O.png?width=466&height=659",
+    },
+    {
+      image:
+        "https://media.discordapp.net/attachments/933032744282357830/933052857568067644/SPOILER_phoenix_1.jpg",
+      link: "/auri",
+    },
+    {
+      image:
+        "https://media.discordapp.net/attachments/751244061104406680/804138261689532476/Val_1.jpg?width=934&height=660",
+    },
+    {
+      image:
+        "https://media.discordapp.net/attachments/753391562062299149/815164914707595274/image0.jpg",
+    },
+    {
+      image:
+        "https://media.discordapp.net/attachments/753391562062299149/913214632200654858/Elaine_Violet.jpg?width=466&height=659",
+    },
   ],
   links: {
     patreon: "https://www.patreon.com/SelkieMyth",
@@ -98,8 +123,15 @@ window.onload = function () {
   //style="width: 100%;border-radius:50px"
   for (let i = 0; i < data.artwork.length; i++) {
     const art = document.createElement("img");
-    art.src = data.artwork[i];
+    art.src = data.artwork[i].image;
     art.style = "width: 100%;border-radius:50px";
+    if (data.artwork[i].link) {
+      art.onclick = function () {
+        window.location.href = data.artwork[i].link;
+        art.style = "width: 100%;border-radius:50px;cursor:pointer;";
+      };
+    }
+
     const artwork =
       i < data.artwork.length / 2
         ? document.getElementById("images-1")
