@@ -126,9 +126,9 @@ window.onload = function () {
     art.src = data.artwork[i].image;
     art.style = "width: 100%;border-radius:50px";
     if (data.artwork[i].link) {
+      art.style = "width: 100%;border-radius:50px;cursor:pointer;";
       art.onclick = function () {
         window.location.href = data.artwork[i].link;
-        art.style = "width: 100%;border-radius:50px;cursor:pointer;";
       };
     }
 
