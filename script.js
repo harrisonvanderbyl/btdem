@@ -76,7 +76,7 @@ const data = {
   links: {
     patreon: "https://www.patreon.com/SelkieMyth",
     royalroad: "https://www.royalroad.com/profile/174291",
-    discord: "https://discord.gg/QNFpAk3p",
+    discord: "https://discord.gg/TekYkwMYQn",
   },
   background:
     "https://cdn.glitch.global/af094f8f-cb9e-4e46-aef7-ee8b98c8965b/final_banner.jpg?v=1657176560875",
