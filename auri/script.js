@@ -65,12 +65,6 @@ const data = {
     "https://cdn.discordapp.com/attachments/981003578422468658/994783334620201060/4.jpeg",
     "https://cdn.discordapp.com/attachments/981003578422468658/994783334083350619/2.jpeg",
     "https://cdn.discordapp.com/attachments/981003578422468658/994783333831684186/1.jpeg",
-    "https://media.discordapp.net/attachments/765332529812078612/986491166184837130/auri_wombo_nobg.png",
-    "https://media.discordapp.net/attachments/765332529812078612/986487099370913842/cosmic_phoenix.jpg",
-    "https://cdn.discordapp.com/attachments/753391562062299149/986518823916167198/20220409_164510.jpg",
-    "https://cdn.discordapp.com/attachments/933032744282357830/933052857568067644/SPOILER_phoenix_1.jpg",
-    "https://i.imgur.com/J15OQ0J.jpg",
-    "https://cdn.discordapp.com/attachments/753391562062299149/913214629277224970/Egg.png",
     "https://cdn.discordapp.com/attachments/981003578422468658/995196390496030730/1.jpeg",
     "https://cdn.discordapp.com/attachments/981003578422468658/995196390701535353/2.jpeg",
     "https://cdn.discordapp.com/attachments/981003578422468658/995196391020306433/3.jpeg",
@@ -118,9 +112,12 @@ window.onload = function () {
   const books = document.getElementById("bookholder");
   for (let i = 0; i < data.books.length; i++) {
     const book = document.createElement("a");
-    book.href = data.books[i].link;
+    book.href = `./books/${i+1}.html` ;
     book.target = "_blank";
-    book.innerHTML = `<img src="${data.books[i].image}">`;
+    book.innerHTML = `<r><img src="${data.books[i].image}"><a href="${data.books[i].link}" class="w3-bar-item w3-button w3-hover-black">
+    <i class="fa-brands fa-amazon"></i>
+    
+  </a></r>`;
     books.appendChild(book);
   }
 
@@ -128,8 +125,15 @@ window.onload = function () {
   //style="width: 100%;border-radius:50px"
   for (let i = 0; i < data.artwork.length; i++) {
     const art = document.createElement("img");
-    art.src = data.artwork[i];
+    art.src = data.artwork[i].image;
     art.style = "width: 100%;border-radius:50px";
+    if (data.artwork[i].link) {
+      art.style = "width: 100%;border-radius:50px;cursor:pointer;";
+      art.onclick = function () {
+        window.location.href = data.artwork[i].link;
+      };
+    }
+
     const artwork =
       i < data.artwork.length / 2
         ? document.getElementById("images-1")
