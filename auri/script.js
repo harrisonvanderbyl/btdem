@@ -125,14 +125,9 @@ window.onload = function () {
   //style="width: 100%;border-radius:50px"
   for (let i = 0; i < data.artwork.length; i++) {
     const art = document.createElement("img");
-    art.src = data.artwork[i].image;
+    art.src = data.artwork[i];
     art.style = "width: 100%;border-radius:50px";
-    if (data.artwork[i].link) {
-      art.style = "width: 100%;border-radius:50px;cursor:pointer;";
-      art.onclick = function () {
-        window.location.href = data.artwork[i].link;
-      };
-    }
+    
 
     const artwork =
       i < data.artwork.length / 2
