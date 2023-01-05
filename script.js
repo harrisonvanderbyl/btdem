@@ -113,7 +113,7 @@ window.onload = function () {
   const books = document.getElementById("bookholder");
   for (let i = 0; i < data.books.length; i++) {
     const book = document.createElement("a");
-    book.href = `./books/${i+1}.html` ;
+    book.href = data.books[i].link ;
     book.target = "_blank";
     book.innerHTML = `<r><img src="${data.books[i].image}"><a href="${data.books[i].link}" class="w3-bar-item w3-button w3-hover-black">
     <i class="fa-brands fa-amazon"></i>
