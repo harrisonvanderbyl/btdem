@@ -10,69 +10,94 @@ const data = {
   },
   books: [
     {
-      link: "https://www.amazon.com/gp/product/B08NWJMXXV",
+      link: "https://www.amazon.com/gp/product/B0DT8T73PQ?storeType=ebooks",
       image: "https://m.media-amazon.com/images/I/41KLgX1qPIL.jpg",
     },
     {
-      link: "https://www.amazon.com/gp/product/B08QMPDDKL",
+      link: "https://www.amazon.com/gp/product/B0DTK8WXWN?storeType=ebooks",
       image: "https://m.media-amazon.com/images/I/41sDoV-2AZL._SY300_.jpg",
     },
     {
-      link: "https://www.amazon.com/gp/product/B08Y5DSDQF",
+      link: "https://www.amazon.com/gp/product/B0DTK74PF7?storeType=ebooks",
       image: "https://m.media-amazon.com/images/I/51R5hmfEWWL._SY300_.jpg",
     },
     {
-      link: "https://www.amazon.com/gp/product/B094YTHBML",
+      link: "https://www.amazon.com/gp/product/B0DT7Q3N57?storeType=ebooks",
       image: "https://m.media-amazon.com/images/I/51L1Nhhl0eL._SY300_.jpg",
     },
     {
-      link: "https://www.amazon.com/gp/product/B09GTTY8G8",
+      link: "https://www.amazon.com/gp/product/B0B92NQ65Y?storeType=ebooks",
       image: "https://m.media-amazon.com/images/I/417Uv0pZfRL._SY300_.jpg",
     },
     {
-      link: "https://www.amazon.com/gp/product/B09Q2SS1BT",
+      link: "https://www.amazon.com/gp/product/B0DTFJPK2C?storeType=ebooks",
       image: "https://m.media-amazon.com/images/I/510Wxp+OzjL._SY300_.jpg",
     },
     {
-      link: "https://www.amazon.com/gp/product/B09ZPQBW2C",
+      link: "https://www.amazon.com/gp/product/B0DTKFTVYF?storeType=ebooks",
       image: "https://m.media-amazon.com/images/I/51lwRCeLUtL._SY300_.jpg",
+    },
+    {
+      link: "https://www.amazon.com/gp/product/B0DTGT97H7?storeType=ebooks",
+      image: "https://m.media-amazon.com/images/I/413OjvdIcNL._SY300_.jpg",
+    },
+    {
+      link: "https://www.amazon.com/gp/product/B0DTJN6S5T?storeType=ebooks",
+      image: "https://m.media-amazon.com/images/I/41Zq98TXrwL._SY300_.jpg",
+    },
+    {
+      link: "https://www.amazon.com/gp/product/B0DT9YVW3S?storeType=ebooks",
+      image: "https://m.media-amazon.com/images/I/41Vr8cTfNkL._SY300_.jpg",
+    },
+    {
+      link: "https://www.amazon.com/gp/product/B0DTHMP58R?storeType=ebooks",
+      image: "https://m.media-amazon.com/images/I/41kg03rDLOL._SY300_.jpg",
+    },
+    {
+      link: "https://www.amazon.com/gp/product/B0DT7SNDFZ?storeType=ebooks",
+      image: "https://m.media-amazon.com/images/I/41Wdvo5ZltL._SY300_.jpg",
+    },
+    {
+      link: "https://www.amazon.com/gp/product/B0DT7TF72Q?storeType=ebooks",
+      image: "https://m.media-amazon.com/images/I/41VoAo8B9AL._SY300_.jpg",
+    },
+    {
+      link: "https://www.amazon.com/gp/product/B0DT7FXDVG?storeType=ebooks",
+      image: "https://m.media-amazon.com/images/I/412ck6CPwpL._SY300_.jpg",
     },
   ],
   artwork: [
-    {
-      image:
-        "https://cdn.discordapp.com/attachments/753391562062299149/881607410840662046/Lunkat_transparent_bg.png",
-    },
-    {
-      image:
-        "https://images-ext-1.discordapp.net/external/23tpm4rXivER2OU4T_vlTtyrR5Z53IBBaN0IMvVyUgE/https/i.imgur.com/ubYOt4z.png?width=1093&height=660",
-    },
-    {
-      image:
-        "https://images-ext-1.discordapp.net/external/IiBwjxfQKsyrPOhSGJddooRemZXo2jIzSO8nqDZVX6U/https/i.imgur.com/TzrWOsL.jpg?width=660&height=660",
-    },
-    {
-      image:
-        "https://images-ext-2.discordapp.net/external/zsEVfuPsfY-uO-Ue8PD_0mw_dYArEC0wNX3QSTvdr5Q/https/i.imgur.com/tKOMy2O.png?width=466&height=659",
-    },
-    {
-      image:
-        "https://media.discordapp.net/attachments/933032744282357830/933052857568067644/SPOILER_phoenix_1.jpg",
-      link: "/auri",
-    },
-    {
-      image:
-        "https://media.discordapp.net/attachments/751244061104406680/804138261689532476/Val_1.jpg?width=934&height=660",
-    },
-    {
-      image:
-        "https://media.discordapp.net/attachments/753391562062299149/815164914707595274/image0.jpg",
-    },
-    {
-      image:
-        "https://media.discordapp.net/attachments/753391562062299149/913214632200654858/Elaine_Violet.jpg?width=466&height=659",
-    },
-  ],
+{image:"btdem/Aoin.png"},
+{image:"btdem/battlescene.jpg"},
+{image:"btdem/Beneath the Dragoneye Moons artwork.png"},
+{image:"btdem/Bi_Pride.webp"},
+{image:"btdem/Broomstick 1.png"},
+{image:"btdem/Broomstick 2.png"},
+{image:"btdem/Commission03.png"},
+{image:"btdem/Dino Knight.png"},
+{image:"btdem/Elaine and Artemis eating all the mangos!.jpg"},
+{image:"btdem/Elaine Fanart.png"},
+{image:"btdem/Elaine Flower.jpg"},
+{image:"btdem/Elaine half done.jpg"},
+{image:"btdem/Elaine in Nippon-Koku.jpg"},
+{image:"btdem/Elaine Iona Dancing.png"},
+{image:"btdem/Elaine_mount1.webp"},
+{image:"btdem/Elaine_png.webp"},
+{image:"btdem/FairyRing.png"},
+{image:"btdem/Gratitude 2.png"},
+{image:"btdem/image0.webp"},
+{image:"btdem/Iona and Elaine.png"},
+{image:"btdem/Meanwhile the sidekicks 2.jpg"},
+{image:"btdem/Meanwhile the sidekicks.png"},
+{image:"btdem/Moonlit Mango.jpg"},
+{image:"btdem/no_wings.jpg"},
+{image:"btdem/Resized Banner.png"},
+{image:"btdem/Romantic Flower Field.png"},
+{image:"btdem/sevenpplcom.png"},
+{image:"btdem/The Ranger Team.jpeg"},
+{image:"btdem/Val_1.webp"},
+{image:"btdem/Wife Fanart.jpeg"}
+],
   links: {
     patreon: "https://www.patreon.com/SelkieMyth",
     royalroad: "https://www.royalroad.com/profile/174291",
