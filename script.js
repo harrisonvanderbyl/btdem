@@ -6,7 +6,7 @@ const data = {
     description:
       "Join Elaine as she travels through the world of Pallos, with magic, monsters, and a global system everyone can tap into. ",
     image:
-      "https://cdn.glitch.global/af094f8f-cb9e-4e46-aef7-ee8b98c8965b/20890132.jpg?v=1657175829330",
+      "btdem/20890132.jpg",
   },
   books: [
     {
